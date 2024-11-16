@@ -104,8 +104,31 @@ footer {
     text-align: center;
     background: #333;
     color: white;
-    padding: 10px 0;
+    padding: 20px 0;
     position: relative;
     bottom: 0;
     width: 100%;
+    transition: background 0.3s ease;
 }
+
+footer:hover {
+    background: #444; /* Cambia ligeramente el tono al pasar el cursor */
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+/* Texto inspirador */
+footer .inspirador {
+    font-size: 1rem;
+    font-style: italic;
+    color: #f4f4f9;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer .inspirador:hover {
+    color: #007BFF; /* Cambia el color del texto al pasar el cursor */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño del texto */
+}
+
