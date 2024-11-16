@@ -11,11 +11,33 @@ body {
 }
 
 /* Header */
-header {
+header.blog-header {
     background: #007BFF;
     color: white;
     padding: 20px 10px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid white;
+    object-fit: cover;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
 }
 
 /* Contenedor principal */
