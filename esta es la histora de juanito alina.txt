@@ -3,6 +3,11 @@ esta es la histora de juanito alina
 el tiene 21 años y le gustan mayores
 
 mañana seguiremos con el tomo
+<<<<<<< HEAD
  hola soy yo
 
+=======
+
+experimento
+>>>>>>> a43694e (exp1)
 master 1
